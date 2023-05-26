@@ -90,6 +90,13 @@ a {
   width: 300px;
 }
 
+@media (max-width: 720px) {
+  .user-img {
+    height: 50vh;
+    width: 50vw;
+  }
+}
+
 .hero-section {
   position: relative;
   display: flex;
