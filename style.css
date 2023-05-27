@@ -92,8 +92,8 @@ a {
 
 @media (max-width: 720px) {
   .user-img {
-    height: 50vh;
-    width: 50vw;
+    height: 200px;
+    width: 200px;
   }
 }
 
