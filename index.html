@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website - Anand</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https:cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <nav class="navbar">
+                <div class="logo-container">
+                    <img src="images/nav/nav-logo.png" class="logo">
+                    <div class="logo-text">nand Singh</div>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#project-section" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contactus" class="nav-link">Contact Me</a>
+                    </li>
+                </ul>
+
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+
+        </header>
+        <div class="container">
+
+
+            <div class="hero-section">
+
+                <!-- Hero Section Left -->
+                <div class="hero-section-left">
+                    <div class="hero-section-heading">Hi! Anand Kumar Singh</div>
+                    <div class="hero-section-heading hero-section-sub-heading">I am a <span class="role"></span></div>
+                    <div class="hero-section-description">
+                        I am a Frontend developer and here is my portfolio website. Here you'll know about my journey
+                        as a
+                        Frontend <!--software--> developer.
+                    </div>
+                    <div class="btn-pink" id="btn" onclick="goToContact()">Hire me</div>
+                </div>
+                <div class="absolute faded-text">Anand Kumar Singh</div>
+
+                <!-- Hero Section Right -->
+                <div class="hero-section-right">
+                    <div class="absolute icons icons-dots">
+                        <img src="images/hero/dot.png" alt="">
+                    </div>
+                    <div class="absolute icons icons-cube">
+                        <img src="images/hero/cube.png" alt="">
+                    </div>
+                    <div class="absolute icons icons-circle">
+                        <img src="images/hero/circle.png" alt="">
+                    </div>
+                    <div class="absolute icons icons-zigzag">
+                        <img src="images/hero/zigzag.png" alt="">
+                    </div>
+                    <div class="absolute icons icons-plus">
+                        <img src="images/hero/plus.png" alt="">
+                    </div>
+                    <div class="user-image">
+                        <img src="images/hero/Anand.jpg" alt="" class="user-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-section" id="project-section">
+            <h2 class="page-header">Projects</h2>
+            <div class="project-container">
+                <div class="project-card" id="project1">
+                    <div class="project-number project-number-right">01</div>
+
+                    <div class="project-content project-content-left">
+                        <div class="project-skills-container">
+                            <img class="project-skills" src="images/project/html.png" alt="">
+                            <img class="project-skills" src="images/project/css.png" alt="">
+                            <img class="project-skills" src="images/project/js.png" alt="">
+                            <img class="project-skills" src="images/project/reactjs.png" alt="">
+                            <img class="project-skills" src="images/project/nodejs.png" alt="">
+                            <img class="project-skills" src="images/project/expressJS.png" alt="">
+                            <img class="project-skills" src="images/project/mongoDB.png" alt="">
+                        </div>
+                        <h2 class="project-heading">Gallery Website</h2>
+                        <div class="project-subHeading">It is Gallery website which provides your old memories</div>
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project" onclick="galleryWebsite()">Read More</button>
+                            <a href="">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="project-card" id="project2">
+                    <div class="project-number project-number-left">02</div>
+
+                    <div class="project-content project-content-right">
+                        <div class="project-skills-container">
+                            <img class="project-skills" src="images/project/html.png" alt="">
+                            <img class="project-skills" src="images/project/css.png" alt="">
+                            <img class="project-skills" src="images/project/js.png" alt="">
+                            <img class="project-skills" src="images/project/reactjs.png" alt="">
+                            <img class="project-skills" src="images/project/nodejs.png" alt="">
+                            <img class="project-skills" src="images/project/expressJS.png" alt="">
+                            <img class="project-skills" src="images/project/mongoDB.png" alt="">
+                        </div>
+                        <h2 class="project-heading">Parallex Website</h2>
+                        <div class="project-subHeading">Parallex website where you know about my experiences</div>
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project" onclick="parallexWebsite()">Read More</button>
+                            <a href="">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="project-card" id="project3">
+                    <div class="project-number project-number-right">03</div>
+
+                    <div class="project-content project-content-left">
+                        <div class="project-skills-container">
+                            <img class="project-skills" src="images/project/html.png" alt="">
+                            <img class="project-skills" src="images/project/css.png" alt="">
+                            <img class="project-skills" src="images/project/js.png" alt="">
+                            <img class="project-skills" src="images/project/reactjs.png" alt="">
+                            <img class="project-skills" src="images/project/nodejs.png" alt="">
+                            <img class="project-skills" src="images/project/expressJS.png" alt="">
+                            <img class="project-skills" src="images/project/mongoDB.png" alt="">
+                        </div>
+                        <h2 class="project-heading">Tic Tac Toe Game</h2>
+                        <div class="project-subHeading">It's a Simple Tic Tac Toe Game.
+                        </div>
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project" onclick="gameWebsite()">Read More</button>
+                            <a href="">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="project-card" id="project4">
+                    <div class="project-number project-number-left">04</div>
+
+                    <div class="project-content project-content-right">
+                        <div class="project-skills-container">
+                            <img class="project-skills" src="images/project/html.png" alt="">
+                            <img class="project-skills" src="images/project/css.png" alt="">
+                            <img class="project-skills" src="images/project/js.png" alt="">
+                            <img class="project-skills" src="images/project/reactjs.png" alt="">
+                            <img class="project-skills" src="images/project/nodejs.png" alt="">
+                            <img class="project-skills" src="images/project/expressJS.png" alt="">
+                            <img class="project-skills" src="images/project/mongoDB.png" alt="">
+                        </div>
+                        <h2 class="project-heading">Gallery Website</h2>
+                        <div class="project-subHeading">It is Gallery website which provides your old memories</div>
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href="">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="skills" class="container skills-container">
+            <div class="skill-fade-text">Skills</div>
+            <div class="skill-container-left">
+                <h2 class="skill-heading">
+                    <span class="caps">M</span>e and
+                    <br>
+                    MyTech Stack
+                </h2>
+                <div class="skill-subHeading">
+                    <p>
+                        Hi Everyone My name is Anand I am a Full Stack Web Developer. Currently, I am a student of Gyan
+                        Ganga College of Technology. Currently, I am studing B. Tech in Computer Science and Engineering
+                        4th year 8th semester.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, culpa debitis corporis,
+                        sapiente nihil architecto tempora voluptates est distinctio laborum blanditiis modi minima quos
+                        pariatur saepe tenetur minus. Unde, eum.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia id rerum ad sint, reiciendis
+                        neque provident rem quos
+                    </p>
+                </div>
+            </div>
+            <div class="skill-container-right">
+                <img src="images/project/blob.png" class="blob-style" alt="">
+
+                <img src="images/project/html.png" class="skills-logo" alt="">
+                <img src="images/project/css.png" class="skills-logo" alt="">
+                <img src="images/project/js.png" class="skills-logo" alt="">
+                <img src="images/project/reactjs.png" class="skills-logo" alt="">
+                <img src="images/project/expressJS.png" class="skills-logo" alt="">
+                <img src="images/project/nodejs.png" class="skills-logo" alt="">
+                <img src="images/project/mongoDB.png" class="skills-logo" alt="">
+                <img src="images/project/gitandgithub.png" class="skills-logo" alt="">
+                <img src="images/project/bootstrap.png" class="skills-logo" alt="">
+            </div>
+        </div>
+
+        <div class="contactus-form-container" id="contactus">
+            <div class="container">
+                <h1 class="contactus-heading">Contact Me</h1>
+                <h3 class="contactus-subHeading">Questions, thoughts, or just want to say hello?</h3>
+
+                <div class="contactus-form-container">
+                    <form class="form" action="">
+                        <div class="formfield-container">
+                            <input type="text" class="formfield" name="name" id="" placeholder="Enter your name">
+                            <input type="email" class="formfield" name="email" id=""
+                                placeholder="Enter your email address">
+                            <input type="text" class="formfield" name="subject" id="" placeholder="Enter your subject">
+                            <textarea name="message" id="" cols="30" rows="10" class="formfield formfield-textarea"
+                                placeholder="Enter your message"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="btn-pink" id="submit-btn" onclick="mail()">
+                                Send Message <i class="submit-icon fa-solid fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="footer-wrapper">
+                    <div class="footer-faded-text">Anand</div>
+                    <div class="link-wrapper">
+                        <div>
+                            <a href="#projects">Projects</a>
+                        </div>
+                        <div>
+                            <a href="#skills">Skills</a>
+                        </div>
+                        <div>
+                            <a href="#contactus">Contact Me</a>
+                        </div>
+                    </div>
+
+                    <div class="icon-wrapper">
+                        <i class="fa-brands fa-linkedin icon" onclick="linkedin()"></i>
+                        <i class="fa-brands fa-github icon" onclick="github()"></i>
+                        <i class="fa-brands fa-twitter icon"></i>
+                        <i class="fa-brands fa-instagram icon" onclick="insta()"></i>
+
+                        <i class="fa-brands fa-envelope icon"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
