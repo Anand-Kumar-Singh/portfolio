@@ -36,15 +36,15 @@ function goToContact() {
 }
 
 function galleryWebsite() {
-  window.location.href = "../imageGallery/index.html";
+  window.location.href = "https://anand-kumar-singh.github.io/ImageGallery/";
 }
 
 function parallexWebsite() {
-  window.location.href = "../parallax_website/index.html";
+  window.location.href = "https://anand-kumar-singh.github.io/ParallaxWebsite/";
 }
 
 function gameWebsite() {
-  window.location.href = "../tictactoe/index.html";
+  window.location.href = "https://anand-kumar-singh.github.io/TicTacToe/";
 }
 
 function linkedin() {
