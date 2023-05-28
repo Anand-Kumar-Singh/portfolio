@@ -233,7 +233,7 @@ a {
 @media (max-width: 720px) {
   .faded-text {
     user-select: none;
-    font-size: 2rem;
+    font-size: 1rem;
     color: rgb(231, 231, 231);
 
     bottom: -10%;
